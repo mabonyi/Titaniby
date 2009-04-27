@@ -1,8 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
-<head><style>body{background-color:#292929;color:white}</style>
-<script type="text/javascript" src="jquery-1.3.2.js"></script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Titaniby - Ruby Showcase For Appcelerator Titanium</title>
+	<link type="text/css" href="css/dot-luv/jquery-ui-1.7.1.custom.css" rel="stylesheet" />
+	<link type="text/css" href="css/app.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/ruby" src="rb/app.rb"></script>
 </head>
 <body>
-Welcome to Titanium
+  <h1 class="ui-widget-header ui-corner-all page-header">Titaniby</h1>
+  <p>
+    Welcome to Titaniby!  This example application showcases integration between 
+    <a href="http://titaniumapp.com" target="ti:systembrowser">Appcelerator Titanium</a> and Ruby.
+    Titaniby also uses the <a href="http://jquery.com" target="ti:systembrowser">jQuery</a> and 
+    <a href="http://jqueryui.com" target="ti:systembrowser">jQuery UI</a> JavaScript libraries.
+  </p>
+  <div id="tabs">
+		<ul>
+			<li><a href="#textile">Textile Factory</a></li>
+			<li><a href="#ar">ActiveRecord</a></li>
+		</ul>
+		<div id="textile">
+		  <p>
+		    Enter some <a href="http://hobix.com/textile/" target="ti:systembrowser">Textile-formatted text</a> 
+		    below and it will be converted from Textile to HTML and appended to the page.  This example uses the
+		    <a href="http://whytheluckystiff.net/ruby/redcloth/" target="ti:systembrowser">RedCloth</a> Ruby Library.
+		  </p>
+		  <textarea id="textile_text" cols="60" rows="5"></textarea>
+      <br/>
+		  <p>
+		    <a id="textilizer" href="#" class="ui-state-default ui-corner-all button_link">
+		      <span class="ui-icon ui-icon-script"></span>Textilize!
+		    </a>
+		  </p>
+		  <h5>Results:</h5>
+		  <div id="textiled"></div>
+		</div>
+		<div id="ar">
+		  Under Construction
+		</div>
+	</div>
+	<div class="footer">
+	  Powered by open source goodness from <a href="http://appcelerator.org">Appcelerator</a>.  Code Strong!
+	  <br/>
+	  <a href="http://appcelerator.org">
+	    <img src="appc150x119.png"></img>
+	  </a>
+	</div>
 </body>
 </html>
+
+

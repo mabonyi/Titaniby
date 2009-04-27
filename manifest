@@ -1,7 +1,24 @@
-#appname: Titaniby
-#publisher: Kevin Whinnery
-#url: http://kevinwhinnery.com
-#image: /Users/kwhinnery/Pictures/appc150x119.png
-#appid: com.kevin_whinnery.titaniby
-#desc: A showcase of Ruby/Titanium Goodness
-#guid: f3085cd5-a0fb-4d0b-8987-497164bf7975
+#appname:Titaniby
+#appid:com.kevin_whinnery.titaniby
+#publisher:Kevin Whinnery
+#image:appc150x119.png
+#url:http://kevinwhinnery.com
+#guid:f3085cd5-a0fb-4d0b-8987-497164bf7975
+#desc:A showcase of Ruby/Titanium Goodness
+runtime:0.3
+api:0.3
+tiapp:0.3
+tifilesystem:0.3
+tiplatform:0.3
+tiui:0.3
+javascript:0.3
+tianalytics:0.3
+python:0.3
+ruby:0.3
+tidesktop:0.3
+tigrowl:0.3
+timedia:0.3
+timonkey:0.3
+tinetwork:0.3
+tinotification:0.3
+tiprocess:0.3
